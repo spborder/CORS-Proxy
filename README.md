@@ -10,4 +10,12 @@ If the original DSA URL is: https://example-dsa-url.com/api/v1,
 and the proxy server is on: http://localhost:8070
 the resulting proxied URL would be: http://localhost:8070/https://example-dsa-url.com/api/v1
 
+## Running this server:
+
+After building/pulling the image, you can start the server using the following command:
+
+```bash
+$ docker run --rm -p 8070:8070 samborder2256/cors-anywhere:test
+```
+
 
